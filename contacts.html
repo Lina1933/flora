@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Цветочный магазин «Флора»</title>
+    <meta name="description" content="Контактная информация магазина Флора: адрес, телефон, email, режим работы. Форма обратной связи для заказа букетов.">
+    <meta property="og:title" content="Контакты — Флора">
+    <meta property="og:description" content="Свяжитесь с нами удобным способом">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-inner">
+            <a href="/index.html" class="logo">Флора</a>
+            <button class="menu-toggle" aria-label="Открыть меню">☰</button>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Главная</a></li>
+                    <li><a href="catalog.html" class="nav-link">Каталог</a></li>
+                    <li><a href="delivery.html" class="nav-link">Доставка</a></li>
+                    <li><a href="about.html" class="nav-link">О нас</a></li>
+                    <li><a href="contacts.html" class="nav-link active">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container section">
+            <h1 class="page-title">Контакты</h1>
+            <p class="page-description">Свяжитесь с нами любым удобным способом или оставьте заявку</p>
+
+            <div class="contacts-grid">
+                <section class="contact-info">
+                    <h2 class="section-title">Наши контакты</h2>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h3 class="contact-label">Адрес</h3>
+                            <p class="contact-text">г. Иркутск, ул.Ленина д. 5</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3 class="contact-label">Телефон</h3>
+                            <p class="contact-text">+7 (999) 123-45-67</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3 class="contact-label">Email</h3>
+                            <p class="contact-text">info@flora.ru</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3 class="contact-label">Режим работы</h3>
+                            <p class="contact-text">Пн-Пт: 9:00 - 20:00</p>
+                            <p class="contact-text">Сб-Вс: 10:00 - 18:00</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="contact-form-section">
+                    <h2 class="section-title">Напишите нам</h2>
+                    <form class="contact-form" action="#" method="post">
+                        <div class="form-group">
+                            <label class="form-label" for="name">Ваше имя</label>
+                            <input class="form-input" type="text" id="name" name="name" required placeholder="Иван Иванов">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="phone">Телефон</label>
+                            <input class="form-input" type="tel" id="phone" name="phone" required placeholder="+7 (___) ___-__-__">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="message">Сообщение</label>
+                            <textarea class="form-textarea" id="message" name="message" rows="5" required placeholder="Ваш вопрос или пожелание"></textarea>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Отправить</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Флора</h3>
+                    <p class="footer-text">Авторские букеты из свежих цветов</p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Контакты</h3>
+                    <p class="footer-text">Тел: +7 (999) 123-45-67</p>
+                </div>
+            </div>
+            <p class="copyright">© 2026 Цветочный магазин «Флора». Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
